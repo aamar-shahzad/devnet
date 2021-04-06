@@ -1,1 +1,5 @@
 geth --identity "localB" --rpc --rpcport "8280" --rpccorsdomain "*" --rpcapi "db,eth,net,web3" --datadir "E:\privateBlockchain" --port "30303" --nodiscover --networkid 1999 console
+
+youtube link for help
+
+https://www.youtube.com/watch?v=G3fa7VCVwsc
