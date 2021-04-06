@@ -1,0 +1,1 @@
+geth --identity "localB" --rpc --rpcport "8280" --rpccorsdomain "*" --rpcapi "db,eth,net,web3" --datadir "E:\privateBlockchain" --port "30303" --nodiscover --networkid 1999 console
