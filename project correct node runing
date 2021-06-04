@@ -1,6 +1,5 @@
-geth --datadir node1/ --syncmode "full"  --port 30311 --rpc --rpcport 8545 --allow-insecure-unlock --rpccorsdomain "*" --bootnodes enode://ca731f21c67d720db8ea9153e0bcae599a81bd2041f47fdf7093550b1e79c58b4820e187146d3d1c638b2b0d55ce490140aadbb6d571dab47f766d9fcd2fcf8a@127.0.0.1:0?discport=30310  --networkid 1433  -unlock 0xEC62b8ECb7Ead9C872caed72de74AE002E14085B --password node1/password.txt --mine console
-
-
+1
+geth --datadir node1/ --syncmode "full"  --port 30311 --rpc  --rpcport 8545 --rpcapi 'eth,miner,personal,net,web3,clique' --allow-insecure-unlock --http.corsdomain '*' --ws  --ws.api 'eth,miner,personal,net,web3,clique' --ws.origins '*' --miner.gaslimit  10000000000000 --bootnodes enode://42cfbed89a258dc548aabfff89109d817583187ce1fb1b0349b92e28031dcc8f97fc17167886ef341075f0e1701016b6af0d235c27d734a0de777948fc28d87f@127.0.0.1:0?discport=30310 --networkid 1433  -unlock 0x820a4627E7a8B9CE8cabaF6a40ff74245B9FBe76 --password node1/password.txt --mine console
 
 
 
