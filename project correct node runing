@@ -6,4 +6,4 @@ geth --datadir node1/ --syncmode "full"  --port 30311 --rpc  --rpcport 8545 --rp
 2
 
 
-geth --datadir node2/ --syncmode "full" --ipcdisable  --port 30312 --rpc  --rpcport 8549 --rpcapi 'eth,miner,personal,net,web3,clique' --allow-insecure-unlock --http.corsdomain '*'  --miner.gaslimit  10000000000000 --bootnodes enode://42cfbed89a258dc548aabfff89109d817583187ce1fb1b0349b92e28031dcc8f97fc17167886ef341075f0e1701016b6af0d235c27d734a0de777948fc28d87f@127.0.0.1:0?discport=6338 --networkid 1433  -unlock 0x820a4627E7a8B9CE8cabaF6a40ff74245B9FBe76 --password node2/password.txt  console
+geth --datadir node2/ --syncmode "full" --ipcdisable  --port 30312 --rpc  --rpcport 8549 --rpcapi 'eth,miner,personal,net,web3,clique' --allow-insecure-unlock --http.corsdomain '*'  --miner.gaslimit  10000000000000 --bootnodes enode://42cfbed89a258dc548aabfff89109d817583187ce1fb1b0349b92e28031dcc8f97fc17167886ef341075f0e1701016b6af0d235c27d734a0de777948fc28d87f@127.0.0.1:0?discport=6338 --networkid 1433  -unlock 0xda13994d3c69b99cEf4C259723907B49Ee44DF5A --password node2/password.txt  console
